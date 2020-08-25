@@ -17,7 +17,8 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "node web-server/src/index.js"
+    "start": "node web-server/src/index.js",
+    "dev": "nodemon web-server/src/index.js"
   },
   "repository": {
     "type": "git",
