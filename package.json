@@ -1,0 +1,33 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "heroku": "^7.42.6",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "sav": "^1.0.42",
+    "yargs": "^15.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node web-server/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apurva200801/node3-weather-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apurva200801/node3-weather-website/issues"
+  },
+  "homepage": "https://github.com/apurva200801/node3-weather-website#readme"
+}
